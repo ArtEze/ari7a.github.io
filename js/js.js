@@ -18,7 +18,7 @@ function agregar_js_juventus()
 function js()
 {
 	agregar_javascript()
-	if(location.href.includes("Juventus")){
+	if(location.href.includes("juventus")){
 		agregar_js_juventus()
 	}
 }
