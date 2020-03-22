@@ -1,7 +1,7 @@
 ﻿function agregar_estilo(){
 	var l = document.createElement("link")
-	var parte = location.href.split("/").slice(-2)[0]=="ari7a.github.io"?"":"../"
-	l.href = /*parte+*/ "./" + "css/estilo.css" + "?" + r(10000000000)
+	var parte = "/ari"
+	l.href = parte + "/css/estilo.css" + "?" + r(10000000000)
 	l.rel = "stylesheet"
 	document.head.appendChild(l)
 }
